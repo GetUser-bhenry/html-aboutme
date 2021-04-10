@@ -1,0 +1,83 @@
+* {box-sizing: border-box;}
+
+header, nav, main, footer {display: block;}
+
+
+header { text-align: center;
+
+}
+
+nav a{
+text-decoration: none;
+color: black;
+text-align: center;
+}
+
+main {
+padding: 10px;
+}
+
+body {
+background-image: url(../images/rpt.jpg); 
+background-size: cover;
+background-position: center;
+font-family: Arial, sans-serif}
+/*
+source: https://www.pinterest.com/pin/415246028137295956/?lp=true
+*/
+
+
+table {border: none; 
+width: 100%;
+padding: 50px; 
+margin: auto; 
+background: rgba(43, 130, 43, 0.4); 
+font-family: Arial;
+text-decoration: none;
+}
+
+table tr {
+list-style-type: none;
+text-align: center;
+}
+
+table td {
+display: inline;
+}
+
+img {border: none}
+
+.content {
+      width: 90%;
+      background: rgba(43, 130, 43, 0.2);
+      font-family: Arial;
+      margin: auto;
+      margin-bottom: 50px;
+}
+
+.row {
+  white-space: nowrap;
+  text-align: center;
+}
+
+form { background-color: rgba(43, 130, 43, 0.2);
+       font-family: Arial, sans-serif;
+       padding: 10px; }
+       
+label { float: left;
+        width: 100px;
+        clear: left;
+        text-align: right;
+        padding-right: 10px;
+        margin-top: 10px; }
+        
+input, textarea { margin-top: 10px;
+                  display: block; }
+                  
+.inline {
+   display: inline-block;
+   text-align: right;}
+
+footer {text-align: center;
+background: rgba(43, 130, 43, 0.4)}
+

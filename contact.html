@@ -1,0 +1,83 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+	<meta charset="UTF-8"> 
+	<title>CONTACT | ARMY NOMAD</title> 
+	<link rel="stylesheet" href="css/armynomad.css">
+	<link rel="icon" href="images/ico.jpg" type="image/icon">
+	<meta name="description" content="Army Nomad is a site for military members stationed 
+	CONUS and OCONUS who are interested in local activities, culture, and traveling near 
+	their duty station!">
+	<meta name="author" content="Brianna Henry">
+	<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+	</script>
+	<![endif]-->
+</head> 
+
+<body>
+	<header><h1>
+	<a href='home.html'><img src="images/banner_AN.jpg" 
+	height= "77" width= "600" alt="Army Nomad Banner"></a>
+	<!--source: https://www.pinterest.com/pin/415246028137295956/?lp=true00-->
+	</h1></header>
+	<h2>Contact</h2>
+
+	<nav>
+		<table>
+			<tr>
+				<td><a href=home.html>Home &nbsp; &nbsp; &nbsp;</a></td>
+				<td><a href=texas.html>Texas &nbsp; &nbsp; &nbsp;</a></td>
+				<td><a href=korea.html>Korea &nbsp; &nbsp; &nbsp;</a></td>
+				<td><a href=thailand.html>Thailand &nbsp; &nbsp; &nbsp;</a></td>
+				<td><a href=japan.html>Japan &nbsp; &nbsp; &nbsp;</a></td>
+				<td><a href=contact.html>Contact &nbsp; &nbsp; &nbsp;</a></td>
+			</tr>
+		</table>
+	</nav>
+	<main>	
+		<form method="post" enctype="text/plain" action="mailto:henry80@email.franklin.edu">
+			<label for="fname">First Name:</label>
+			<input type="text" name="fname" id="fname" required="required">
+			<label for="lname">Last Name:</label>
+			<input type="text" name="lname" id="lname" required="required">
+			<label for="myEmail">E-mail:</label>
+			<input type="email" name="myEmail" id="myEmail" required="required"><br>
+			
+			<fieldset><legend>What branch are you in?</legend>
+			<label for="army">Army</label>
+			<input type="radio" name="survey" id="army" value="army" checked="checked"><br>
+			<label for="airforce">Air Force</label>
+			<input type="radio" name="survey" id="airforce" value="airforce"><br>
+  			<label for="navy">Navy</label>
+  			<input type="radio" name="survey" id="navy" value="navy"><br>
+  			<label for="marines">Marines</label>
+  			<input type="radio" name="survey" id="marines" value="marines"><br>
+  			<label for="other">Other</label>
+  			<input type="radio" name="survey" id="other" value="other"><br>
+			</fieldset><br>
+		
+			<fieldset><legend>Select where you have traveled:</legend>
+			<input type="checkbox" class="inline" name="Korea" id="Korea" value="yes">Korea
+			<input type="checkbox" class="inline" name="Thailand" id="Thailand" value="yes">Thailand
+			<input type="checkbox" class="inline" name="Japan" id="Japan" value="yes">Japan
+			<input type="checkbox" class="inline" name="Texas" id="Texas" value="yes">Texas
+			<input type="checkbox" class="inline" name="Other" id="Other" value="yes">Other
+			</fieldset><br>
+
+			<label for="myComments">Comments:</label>
+			<textarea name="myComments" id="myComments" rows="2" cols="20"></textarea>
+			<input class="inline" type="submit" value="Submit">
+			<input class="inline" type="reset" value="Reset">
+		</form>
+	
+	</main>
+	
+<footer>
+	Copyright &copy; 2019 Army Nomad<br>
+	<a href=mailto:henry80@email.franklin.edu>brianna@henry.com</a><br>
+	<a href="sitemap.html"> Sitemap </a>
+</footer>
+</body>
+</html> 
+
